@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=JetBrains+Mono:wght@800&family=Roboto:wght@300;400&family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto;
+    overflow: hidden;
+}
+
+.container {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-box-shadow: 5px 5px 11px -1px rgba(0,0,0,0.83); 
+    box-shadow: 5px 5px 11px -1px rgba(0,0,0,0.83);
+}
+
+input{
+    display: block;
+    margin: 5px 0px;
+    padding: 8px;
+    width: 100%;
+    border:.3px solid #205C96;
+    border-radius: 25px;
+    height: 30px;
+}
+
+.form > input[type="text"] , .form>input[type="password"]:focus{
+    outline: none;
+}
+
+
+.submit-btn{
+    margin-top: 20px;
+    background-color: #205C96;
+    color:white;
+}
+
+.sideImage {
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(143.28deg, rgba(32, 92, 150, 0.644) 25.61%, rgba(32, 92, 150, 0.644) 32.49%, rgba(40, 107, 173, 0.602) 52.95%, rgba(49, 127, 202, 0.595) 77.98%);
+}
+
+.form-group {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.form-group>*{
+    margin-right: auto;
+}
+h1{
+    margin-bottom: 30px;
+    color:#205C96;
+}
+.form {
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    margin: auto;
+    width: 230px;
+
+}
+
+.sideContent > img {
+    display: block;
+    margin: auto;
+    width:200px;
+    margin-bottom: 20px;
+}
+.sideContent {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.ensam {
+    color:white;
+    font-family: "JetBrains Mono";
+    font-weight: bold;
+}
+.classes{
+    color:#205C96;
+    font-family: Italianno;
+    font-size: 25px;
+}
+
+.topCercl {
+    position: absolute;
+    width: 300px;
+    height: 258px;
+    left: -90px;
+    top: -130px;
+    background: #205C96;
+    transform: rotate(-60deg);
+    border-radius: 900px;
+}
+.bottumCercl{
+    position: absolute;
+    width: 300px;
+    height:308px;
+    right: -130px;
+    bottom: -170px;
+    background: #205C96;
+    transform: rotate(90deg);
+    border-radius: 900px;
+}
+
+.inputContainer{
+    position: relative;
+}
+
+.lables{
+    position: absolute;
+    bottom: 50%;
+    left: 10px;
+    transform: translateY(50%);
+    pointer-events: none;
+}
+
+.failds:not(:placeholder-shown) ~ label{
+    /* You need to add a placeholder to your fields. For example: <input "placeholder=" "/> */
+    color: transparent;
+  }
+  
+  /* If input is empty */
+.failds:placeholder-shown ~ label{
+    color: gray;
+}
+@media screen and (max-width: 900px) {
+    body {
+      background-color: white;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  }

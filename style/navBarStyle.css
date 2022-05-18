@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=JetBrains+Mono:wght@800&family=Roboto:wght@300;400&family=Rubik:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0xp;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.listOfNav  ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 20px;
+}
+
+.ensam {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "JetBrains Mono";
+    color: #12314e;
+}
+
+.logo a:active {
+    color:#205C96;
+}
+
+.logo a:active {
+    color:#205C96;
+}
+
+.classes {
+    font-family: Italianno;
+    font-size: 30px;
+    color:#205C96;
+}
+
+.listOfNav  ul li a:hover{
+    border-bottom: 2px solid #58738d;
+    color :#58738d;
+}
+
+.log-in-BTN:hover {
+    border: none;
+    color:black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.log-in-BTN {
+    background-color: #205C96;
+    padding :10px 20px;
+    border-radius: 50px;
+    color:white
+}
